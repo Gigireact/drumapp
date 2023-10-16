@@ -1,38 +1,45 @@
-.App {
+/* DrumMachine.css */
+
+#drum-machine {
+  background-color: #f0f0f0;
   text-align: center;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  width: 300px;
+  margin: 0 auto;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+#display {
+  font-size: 24px;
+  margin-bottom: 20px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.drum-pads {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.drum-pad {
+  border: 1px solid #333;
+  padding: 20px;
+  cursor: pointer;
+  user-select: none;
+  background-color: #ccc;
+  border-radius: 5px;
+  font-size: 18px;
+  transition: background-color 0.2s ease-in-out;
 }
 
-.App-link {
-  color: #61dafb;
+.drum-pad:focus {
+  outline: 2px solid #007bff;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.drum-pad:hover {
+  background-color: #eee;
+}
+
+.clip {
+  display: none;
 }
