@@ -5,6 +5,7 @@ import './App.css';
 const App = () => {
   return (
     <div className="App">
+      <div className='title'> My Drum Machine App</div>
       <DrumMachine />
     </div>
   );
