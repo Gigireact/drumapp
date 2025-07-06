@@ -6,7 +6,7 @@ body {
   justify-content: center;
   margin: 0;
   height: 100vh;
-  background-color: black;
+  background-color: rgb(143, 121, 151);
 }
 
 #drum-machine {
@@ -162,6 +162,6 @@ body {
   font-size: 40px;
   text-align: center;
   padding: 20px;
-  color: white;
+  color: black;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
