@@ -162,6 +162,7 @@ body {
 @media (max-width: 600px) {
   #drum-machine {
     padding: 15px;
+    max-width: 70%;
   }
 
   #drum-mach {
@@ -193,6 +194,7 @@ body {
   .drum-pad {
     font-size: 14px;
     padding: 8px;
+    max-width: 70%;
   }
 
  
